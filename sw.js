@@ -1,5 +1,5 @@
-const CACHE = "quiet-room-v1";
-const ASSETS = ["./", "./index.html", "./app.js", "./manifest.json", "./icon.svg"];
+const CACHE = "quiet-room-v6";
+const ASSETS = ["./", "./index.html", "./app.js", "./manifest.json", "./icon.svg", "./hero.jpg", "./og.jpg"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
